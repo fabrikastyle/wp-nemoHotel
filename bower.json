@@ -1,0 +1,36 @@
+{
+  "name": "wordpress-gulp-starter-kit",
+  "homepage": "https://github.com/synapticism/wordpress-gulp-starter-kit",
+  "authors": [
+    {
+      "name": "Alexander Synaptic",
+      "email": "alexander@synapticism.com",
+      "homepage": "http://synapticism.com"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "wordpress-theme",
+    "starter-kit",
+    "gulp",
+    "bower",
+    "sass",
+    "browsersync",
+    "livereload"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    ".sass-cache",
+    "build"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "scrollmagic": "^2.0.5",
+    "jquery": "^3.2.1"
+  }
+}

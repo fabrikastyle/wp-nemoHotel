@@ -1,0 +1,35 @@
+// ==== CONFIGURATION ==== //
+
+// Set all your configuration variables here!
+
+// Width of the overall site as well as the left and right content columns
+$width-site:    1000px;
+$width-left:    650px;
+$width-right:   350px;
+
+// Breakpoints
+$break-small:   480px;
+$break-medium:  620px;
+$break-large:   800px;
+
+// A standard margin
+$spacer:        30px;
+
+// A modest palette; see `_library.scss` for the color() function
+$_color: (
+  text: #333,
+  link: steelblue,
+  link-muted: steelblue,
+  body-background: white
+);
+
+// Metadata; use metadata() to access
+$_metadata: (
+  theme-name:               "Nemo Hotel"
+, theme-uri:                ""
+, theme-author:             "Ivchenko Sergey"
+, theme-author-uri:         "https://github.com/JAZzmiX"
+, theme-description:        "Theme for Nemo Hotel"
+, theme-version:            "2.0.0"
+, theme-license:            "GPLv3"
+);

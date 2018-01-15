@@ -1,0 +1,90 @@
+
+.motion-x-left,
+.motion-title-left {
+    position: relative;
+    z-index: 2;
+    transform: translateX(-30px);
+    transition: all 1s ease-out;
+    opacity: 0;
+    &.fade-in {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.motion-x-right,
+.motion-title-right {
+    position: relative;
+    z-index: 2;
+    transform: translateX(30px);
+    transition: all 1s ease-out;
+    opacity: 0;
+    &.fade-in {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.motion-y-top {
+    transform: translateY(-30px);
+    transition: all 1s ease-out;
+    opacity: 0;
+    &.fade-in {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.motion-y {
+    transform: translateY(30px);
+    transition: all 1s ease-out;
+    opacity: 0;
+    &.fade-in {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*.big-logo-motion{
+    transform: translateY(100px);
+    transition: all 1s ease-out;
+    opacity: 0;
+    &.fade-in {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}*/
+
+.fadeIn {
+    animation: fadein 1s;
+}
+
+.fadeOut {
+    animation: fadeout 0.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.st0{
+    visibility: hidden;
+    fill: #ffffff;
+}
+.st1{
+   fill: #ffffff; 
+}

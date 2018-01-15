@@ -1,0 +1,48 @@
+// ==== STYLES ==== //
+
+// Do not declare anything before the metadata block; this first section is solely for variable, function, and mixin definitions
+// Note: `bower_components` is already in Sass's path
+
+// Scut, a Sass utilities library: https://davidtheclark.github.io/scut/
+@import "scut";
+
+// Configuration variables and settings
+@import "config";
+
+
+/*!
+Theme Name: Nemo Hotel
+Author: Ivchenko Sergey
+Author URI: https://github.com/JAZzmiX
+Description: Theme for Nemo Hotel
+Version: 2.0.0
+License: GPLv3
+*/
+
+// Reset: eliminate default browser styling (optional; commented out by default)
+//@import "reset";
+
+// Normalize: make browsers render things more consistently
+@import "normalize";
+
+
+
+
+@import "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic');
+@import "partials/slick.scss";
+@import "partials/slick-theme.scss";
+
+/*
+* Custom
+*/
+
+@import "partials/variable.scss";
+@import "partials/responsive.scss";
+@import "partials/_motion.scss";
+@import "partials/responsive.scss";
+@import "partials/single.scss";
+@import "partials/jquery.fancybox.min.scss";
+@import "partials/tables.scss";
+@import "partials/app.scss";
