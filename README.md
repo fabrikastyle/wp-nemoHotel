@@ -8,6 +8,9 @@ WordPress theme for Nemo Hotel
 * acf-options-for-polylang-master
 * polylang
 
+## All Style
+(`src/scss/partials/`)
+
 ### Used [WORDPRESS/GULP STARTER KIT](https://github.com/synapticism/wordpress-gulp-starter-kit.git)
 ## ORGANIZATION
 
