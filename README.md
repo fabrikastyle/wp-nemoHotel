@@ -8,7 +8,7 @@ WordPress theme for Nemo Hotel
 * acf-options-for-polylang-master
 * polylang
 
-Used [WORDPRESS/GULP STARTER KIT](https://github.com/synapticism/wordpress-gulp-starter-kit.git)
+### Used [WORDPRESS/GULP STARTER KIT](https://github.com/synapticism/wordpress-gulp-starter-kit.git)
 ## ORGANIZATION
 
 This starter kit uses `src`, `build`, and `dist` folders to organize theme development:
