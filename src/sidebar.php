@@ -89,10 +89,11 @@ $city_har = get_field('city_har', 'option');
     <div class="nav-section-right">
     
       <a id="btn-reservation" class="slideNavM" href="<?= $btn_reserve_url; ?>">
+      <? /*
       <div class="cap-ny">
         <img src="<?= get_template_directory_uri() ?>/images/cap2.png">
       </div>
-
+      */ ?>
       <? if (!empty($btn_reserve)): ?> 
           <?= $btn_reserve; ?>
         <? endif; ?>
